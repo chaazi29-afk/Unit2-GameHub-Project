@@ -425,6 +425,16 @@ START OF LESSON 12
     padding-top: 30px;
     border-top: 1px solid rgb(255, 255, 255, 0.1);
     color: #95a5a6;
+    animation: keyframes 1s infinite;
+}
+
+@keyframes keyframes {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
 }
 
 .footer-bottom a {
